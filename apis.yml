@@ -1,7 +1,23 @@
 aid: utopia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/utopia.png
 name: Utopia
-description: Utopia is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Utopia was an online platform for designing, coding, and shipping React
+  applications, pairing a visual design tool with a code editor over one source of
+  truth. A 2020 Seedcamp portfolio company, it was built in the open as the MIT-licensed
+  concrete-utopia/utopia monorepo (3.8k stars) with a first-party utopia-api npm library.
+  The project has been dormant since mid-2025, utopia.app now serves a parked placeholder
+  page, and no network API was ever published.
 url: https://raw.githubusercontent.com/api-evangelist/utopia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,17 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Developer Tools
+- Design
+- Low Code
+- React
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/utopia-domain-security.yml
 - type: Website
-  url: http://utopia.app
+  url: https://utopia.app
+- type: GitHubOrganization
+  url: https://github.com/concrete-utopia
+- type: SourceCode
+  url: https://github.com/concrete-utopia/utopia
+- type: Packages
+  url: packages/utopia-packages.yml
+- type: LLMsTxt
+  url: llms/utopia-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

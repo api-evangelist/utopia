@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://utopia.app
+host: https://utopia.app
+note: >-
+  utopia.app serves a catch-all placeholder page (domain-parking template with a
+  Formspree contact form) that returns HTTP 200 with the same HTML for every path,
+  including all /.well-known/ documents. No real discovery documents are published;
+  the 200 statuses below are the catch-all, not the named document, so no raw files
+  were saved and no SecurityTxt/WellKnown capability is claimed.
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/api-catalog
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /llms.txt
+    status: 200
+    content_type: text/html
+    catch_all: true
+  - path: /robots.txt
+    status: 200
+    content_type: text/html
+    catch_all: true

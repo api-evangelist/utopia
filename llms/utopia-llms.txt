@@ -1,0 +1,17 @@
+# Utopia
+
+> Utopia was an online platform for designing, coding, and shipping React applications — a visual design tool and code editor working on the same source of truth. A 2020 Seedcamp portfolio company, its product was developed in the open as concrete-utopia/utopia (MIT). The project has been dormant since mid-2025 and utopia.app now serves a parked placeholder page. Utopia publishes no network API.
+
+## Source code
+
+- [concrete-utopia/utopia](https://github.com/concrete-utopia/utopia): The Utopia editor monorepo — design and code on one platform (MIT, dormant since June 2025)
+- [utopia-api on npm](https://www.npmjs.com/package/utopia-api): First-party component-annotation library for the Utopia editor (last published 2024-06-07)
+
+## Company
+
+- [utopia.app](https://utopia.app): Former product site, now a parked placeholder page with a contact form
+- [Seedcamp portfolio](https://seedcamp.com/companies/): Listed as "Online platform for designing, coding and shipping applications" (2020 investment)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/utopia/refs/heads/main/apis.yml): APIs.json profile for Utopia in the API Evangelist network
