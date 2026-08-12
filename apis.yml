@@ -43,6 +43,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: License
+  name: MIT
+  url: https://github.com/concrete-utopia/utopia/blob/master/LICENSE
 - type: DomainSecurity
   url: security/utopia-domain-security.yml
 - type: Website
